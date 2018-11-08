@@ -1,36 +1,40 @@
 body {
 
-	background-image: url("../images/bg2.png");
+	background-image: url("../images/bg.jpg");
 	background-size: cover;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 
 	-webkit-background-size: cover;
 
 	font-family: 'Teko', sans-serif;
-
 }
 
 h1 {
 	color: white;
 	font-size: 200px;
 	font-weight: bolder;
-	margin-top: 20px;
-	margin-bottom: 0;
+	text-align: center;
+	margin-top: 0px; 
+	text-shadow: 10px 10px #004E98;
 }
 
 h2 {
-	color: white;
-	font-size: 70px;
+	color: #273469;
+	font-size: 150px;
 	font-weight: bold;
-	margin-top: 0 
+	text-align: center;
+	margin-top: -200px; 
+	text-shadow: 5px 5px white;
 }
 
 .bio {
 	color: white;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: bold;
-	margin-top: 0;
+	margin-top: -150px;
 	text-align: center;
+	text-shadow: 3px 3px #273469;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .me {
@@ -38,14 +42,15 @@ h2 {
 	border-radius: 100%;
 	border-style: solid;
 	border-color: white;
-	margin-top: 50px;
-	margin-bottom: 50px;
+/*	margin-top: 10px;
+	margin-bottom: 10px;*/
 }
 
 #container {
-	width: 3000px;
+	
 	margin: 0 auto;
 	text-align: center;
+	border
 }
 
 #description {
@@ -53,8 +58,9 @@ h2 {
 	width: auto;
 	height: auto;
 	background-color: white;
-	background: rgba(0,0,0,0.5);
-
-	
-	
+	background: rgba(0,0,0,0.5);	
 }
+
+/*#para {
+	
+}*/
